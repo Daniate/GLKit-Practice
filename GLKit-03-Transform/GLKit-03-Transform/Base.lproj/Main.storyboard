@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eE3-WE-fae">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GLKit View Controller-->
+        <scene sceneID="XQt-Q3-hlU">
+            <objects>
+                <glkViewController preferredFramesPerSecond="30" id="eE3-WE-fae" customClass="ViewController" sceneMemberID="viewController">
+                    <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" enableSetNeedsDisplay="NO" id="ZT0-rO-aQx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="选择处理方式" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-8S-MGa">
+                                <rect key="frame" x="112.5" y="613" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="aCk-Vh-zgf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="DdL-cX-826" firstAttribute="bottom" secondItem="3Zg-8S-MGa" secondAttribute="bottom" constant="20" id="NUg-Xs-smr"/>
+                            <constraint firstItem="3Zg-8S-MGa" firstAttribute="centerX" secondItem="ZT0-rO-aQx" secondAttribute="centerX" id="fnt-rU-V8X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DdL-cX-826"/>
+                        <connections>
+                            <outlet property="delegate" destination="eE3-WE-fae" id="lqv-6n-1kn"/>
+                        </connections>
+                    </glkView>
+                    <connections>
+                        <outlet property="textField" destination="3Zg-8S-MGa" id="aIW-cx-R4w"/>
+                    </connections>
+                </glkViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Y9-S9-uQO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="133"/>
+        </scene>
+    </scenes>
+</document>
