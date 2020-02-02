@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eE3-WE-fae">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GLKit View Controller-->
+        <scene sceneID="XQt-Q3-hlU">
+            <objects>
+                <glkViewController preferredFramesPerSecond="30" id="eE3-WE-fae" customClass="ViewController" sceneMemberID="viewController">
+                    <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" enableSetNeedsDisplay="NO" id="ZT0-rO-aQx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pso-NG-mvd">
+                                <rect key="frame" x="112.5" y="613" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="yjW-Dw-Q9G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Pso-NG-mvd" firstAttribute="centerX" secondItem="ZT0-rO-aQx" secondAttribute="centerX" id="YkC-B2-lBi"/>
+                            <constraint firstItem="DdL-cX-826" firstAttribute="bottom" secondItem="Pso-NG-mvd" secondAttribute="bottom" constant="20" id="p1z-F8-Vcu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DdL-cX-826"/>
+                        <connections>
+                            <outlet property="delegate" destination="eE3-WE-fae" id="lqv-6n-1kn"/>
+                        </connections>
+                    </glkView>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="az1-Ra-Iqn">
+                        <barButtonItem key="rightBarButtonItem" title="设置" id="Lyc-Ye-Dqb"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textField" destination="Pso-NG-mvd" id="T3F-34-3ft"/>
+                    </connections>
+                </glkViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Y9-S9-uQO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-22" y="110"/>
+        </scene>
+    </scenes>
+</document>
