@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		1408307F23E5244A002601FB /* white_tile_400.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_tile_400.jpg; sourceTree = "<group>"; };
 		1473073623E45B33009FBDDD /* cat_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_512.png; sourceTree = "<group>"; };
-		149ABF9923DFD03B00B57C8D /* GLKit-05-Simplest-Lighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLKit-05-Simplest-Lighting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		149ABF9923DFD03B00B57C8D /* GLKit-06-Simplest-Lighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLKit-06-Simplest-Lighting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		149ABF9C23DFD03B00B57C8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		149ABF9D23DFD03B00B57C8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		149ABF9F23DFD03B00B57C8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		149ABF9023DFD03B00B57C8D = {
 			isa = PBXGroup;
 			children = (
-				149ABF9B23DFD03B00B57C8D /* GLKit-05-Simplest-Lighting */,
+				149ABF9B23DFD03B00B57C8D /* GLKit-06-Simplest-Lighting */,
 				149ABF9A23DFD03B00B57C8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		149ABF9A23DFD03B00B57C8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				149ABF9923DFD03B00B57C8D /* GLKit-05-Simplest-Lighting.app */,
+				149ABF9923DFD03B00B57C8D /* GLKit-06-Simplest-Lighting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		149ABF9B23DFD03B00B57C8D /* GLKit-05-Simplest-Lighting */ = {
+		149ABF9B23DFD03B00B57C8D /* GLKit-06-Simplest-Lighting */ = {
 			isa = PBXGroup;
 			children = (
 				149ABF9C23DFD03B00B57C8D /* AppDelegate.h */,
@@ -74,15 +74,15 @@
 				1473073623E45B33009FBDDD /* cat_512.png */,
 				1408307F23E5244A002601FB /* white_tile_400.jpg */,
 			);
-			path = "GLKit-05-Simplest-Lighting";
+			path = "GLKit-06-Simplest-Lighting";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		149ABF9823DFD03B00B57C8D /* GLKit-05-Simplest-Lighting */ = {
+		149ABF9823DFD03B00B57C8D /* GLKit-06-Simplest-Lighting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 149ABFAF23DFD03C00B57C8D /* Build configuration list for PBXNativeTarget "GLKit-05-Simplest-Lighting" */;
+			buildConfigurationList = 149ABFAF23DFD03C00B57C8D /* Build configuration list for PBXNativeTarget "GLKit-06-Simplest-Lighting" */;
 			buildPhases = (
 				149ABF9523DFD03B00B57C8D /* Sources */,
 				149ABF9623DFD03B00B57C8D /* Frameworks */,
@@ -92,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = "GLKit-05-Simplest-Lighting";
+			name = "GLKit-06-Simplest-Lighting";
 			productName = "GLKit-01-Triangle";
-			productReference = 149ABF9923DFD03B00B57C8D /* GLKit-05-Simplest-Lighting.app */;
+			productReference = 149ABF9923DFD03B00B57C8D /* GLKit-06-Simplest-Lighting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 149ABF9423DFD03B00B57C8D /* Build configuration list for PBXProject "GLKit-05-Simplest-Lighting" */;
+			buildConfigurationList = 149ABF9423DFD03B00B57C8D /* Build configuration list for PBXProject "GLKit-06-Simplest-Lighting" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				149ABF9823DFD03B00B57C8D /* GLKit-05-Simplest-Lighting */,
+				149ABF9823DFD03B00B57C8D /* GLKit-06-Simplest-Lighting */,
 			);
 		};
 /* End PBXProject section */
@@ -292,15 +292,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TUMV96N6ER;
-				INFOPLIST_FILE = "GLKit-05-Simplest-Lighting/Info.plist";
+				DEVELOPMENT_TEAM = AYQ9A9B8GN;
+				INFOPLIST_FILE = "GLKit-06-Simplest-Lighting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.daniate.GLKit-05-Simplest-Lighting";
-				PRODUCT_NAME = "GLKit-05-Simplest-Lighting";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniate.app;
+				PRODUCT_NAME = "GLKit-06-Simplest-Lighting";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -310,15 +310,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TUMV96N6ER;
-				INFOPLIST_FILE = "GLKit-05-Simplest-Lighting/Info.plist";
+				DEVELOPMENT_TEAM = AYQ9A9B8GN;
+				INFOPLIST_FILE = "GLKit-06-Simplest-Lighting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.daniate.GLKit-05-Simplest-Lighting";
-				PRODUCT_NAME = "GLKit-05-Simplest-Lighting";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniate.app;
+				PRODUCT_NAME = "GLKit-06-Simplest-Lighting";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		149ABF9423DFD03B00B57C8D /* Build configuration list for PBXProject "GLKit-05-Simplest-Lighting" */ = {
+		149ABF9423DFD03B00B57C8D /* Build configuration list for PBXProject "GLKit-06-Simplest-Lighting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				149ABFAD23DFD03C00B57C8D /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		149ABFAF23DFD03C00B57C8D /* Build configuration list for PBXNativeTarget "GLKit-05-Simplest-Lighting" */ = {
+		149ABFAF23DFD03C00B57C8D /* Build configuration list for PBXNativeTarget "GLKit-06-Simplest-Lighting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				149ABFB023DFD03C00B57C8D /* Debug */,

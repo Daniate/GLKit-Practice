@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  GLKit-05-Simplest-Lighting
+//  GLKit-06-Simplest-Lighting
 //
 //  Created by Daniate on 2020/1/28.
 //  Copyright © 2020 Daniate. All rights reserved.

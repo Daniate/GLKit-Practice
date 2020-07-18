@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "149ABF9823DFD03B00B57C8D"
-               BuildableName = "GLKit-05-Simplest-Lighting.app"
-               BlueprintName = "GLKit-05-Simplest-Lighting"
-               ReferencedContainer = "container:GLKit-05-Simplest-Lighting.xcodeproj">
+               BuildableName = "GLKit-06-Simplest-Lighting.app"
+               BlueprintName = "GLKit-06-Simplest-Lighting"
+               ReferencedContainer = "container:GLKit-06-Simplest-Lighting.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "149ABF9823DFD03B00B57C8D"
-            BuildableName = "GLKit-05-Simplest-Lighting.app"
-            BlueprintName = "GLKit-05-Simplest-Lighting"
-            ReferencedContainer = "container:GLKit-05-Simplest-Lighting.xcodeproj">
+            BuildableName = "GLKit-06-Simplest-Lighting.app"
+            BlueprintName = "GLKit-06-Simplest-Lighting"
+            ReferencedContainer = "container:GLKit-06-Simplest-Lighting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "149ABF9823DFD03B00B57C8D"
-            BuildableName = "GLKit-05-Simplest-Lighting.app"
-            BlueprintName = "GLKit-05-Simplest-Lighting"
-            ReferencedContainer = "container:GLKit-05-Simplest-Lighting.xcodeproj">
+            BuildableName = "GLKit-06-Simplest-Lighting.app"
+            BlueprintName = "GLKit-06-Simplest-Lighting"
+            ReferencedContainer = "container:GLKit-06-Simplest-Lighting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
