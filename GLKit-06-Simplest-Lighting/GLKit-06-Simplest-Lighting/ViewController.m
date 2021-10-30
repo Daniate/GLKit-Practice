@@ -83,12 +83,14 @@ typedef NS_ENUM(NSUInteger, TextureType) {
     self.effect.light0.enabled = GL_TRUE;
     self.effect.light0.specularColor = GLKVector4Make(1, 1, 1, 1);
     
-    self.effect.material.specularColor = GLKVector4Make(1, 1, 1, 1);
-    self.effect.material.ambientColor = GLKVector4Make(0.4, 0.4, 0.4, 1);
-    self.effect.material.shininess = 1000;
-    
+    self.effect.material.ambientColor = GLKVector4Make(0.2, 0.2, 0.2, 1);
+    self.effect.material.diffuseColor = GLKVector4Make(0.8, 0.8, 0.8, 1);
+    self.effect.material.specularColor = GLKVector4Make(0, 0, 0, 1);
+    self.effect.material.emissiveColor = GLKVector4Make(0, 0, 0, 1);
+    self.effect.material.shininess = 0;
+//    
     self.effect.lightingType = GLKLightingTypePerPixel;
-    self.effect.lightModelAmbientColor = GLKVector4Make(0.8f, 0.8f, 0.8f, 1);
+    self.effect.lightModelAmbientColor = GLKVector4Make(0.2, 0.2, 0.2, 1);
     
 //    self.lightType = LightTypeDirectional;
 //    self.lightType = LightTypePoint;
@@ -242,7 +244,7 @@ typedef NS_ENUM(NSUInteger, TextureType) {
     if (LightTypeDirectional == self.lightType) {
         self.effect.light0.position = GLKVector4Make(0, 0, 1, 0);
     } else if (LightTypePoint == self.lightType) {
-        self.effect.light0.position = GLKVector4Make(0, 0, 1, 1);
+        self.effect.light0.position = GLKVector4Make(0, 0, 0.05, 1);
         self.effect.light0.spotCutoff = 180;
     } else if (LightTypeSpotlight == self.lightType) {
         self.effect.light0.position = GLKVector4Make(0, 0, 1, 1);
